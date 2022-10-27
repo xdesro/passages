@@ -1,0 +1,97 @@
+[
+  {
+    "title": "reading",
+    "url": "",
+    "isWip": true,
+    "isSelfHosted": true,
+    "description": "A website to track the author’s recent reading.",
+    "date": "2022-10-25",
+    "githubUrl": "reading",
+    "figmaUrl": "https://www.figma.com/file/MtsZ0FS1DP2itMhJdtHvQR/Reading"
+  },
+  {
+    "title": "wander.online",
+    "url": "",
+    "isWip": true,
+    "description": "A text-based role-playing game in which the player builds the world they face.",
+    "date": "2022-12-31"
+  },
+  {
+    "title": "strange.website",
+    "url": "https://strange.website",
+    "isWip": false,
+    "isSelfHosted": false,
+    "description": "A collection of bizarre and horrifying websites — digital denizens from realms beyond!",
+    "date": "2022-05-06",
+    "githubUrl": "strange-website"
+  },
+  {
+    "title": "stillness.digital",
+    "url": "https://stillness.digital",
+    "description": "A soft and quiet blog for sharing moments of slow exhalation.",
+    "date": "2022-02-10",
+    "githubUrl": "stillness"
+  },
+  {
+    "title": "personalsit.es",
+    "url": "https://personalsit.es",
+    "description": "A simple directory of folks’ personal sites; a salute to the art.",
+    "date": "2020-01-12",
+    "githubUrl": "personalsit.es",
+    "figmaUrl": "https://www.figma.com/file/OZfaOAonf6ewou8ADPF8bm/PersonalSit.es"
+  },
+  {
+    "title": "peaks",
+    "url": "https://peaks.henry.codes",
+    "isWip": false,
+    "isSelfHosted": true,
+    "description": "A log of which 14,000' peaks in Colorado the author has summited.",
+    "date": "2021-10-24",
+    "githubUrl": "peaks",
+    "figmaUrl": "https://www.figma.com/file/171GqWeJQZa9eTk32vtOjz/Peaks?node-id=0%3A1"
+  },
+  {
+    "title": "soon",
+    "url": "https://soon.henry.codes",
+    "isWip": false,
+    "isSelfHosted": true,
+    "description": "The author’s personal site and portfolio.",
+    "date": "2021-01-21",
+    "githubUrl": "soon",
+    "figmaUrl": "https://www.figma.com/file/Nji3uTbuVhlBAZC8yvt632/SS2021"
+  },
+  {
+    "title": "compendium.dev",
+    "url": "",
+    "isWip": true,
+    "description": "An omnibus HTML file to test CSS cascade and formatting with.",
+    "date": "2021-12-31",
+    "githubUrl": "html-compendium"
+  },
+  {
+    "title": "sex-work-exclusive-companies.tech",
+    "url": "https://sex-work-exclusive-companies.tech",
+    "description": "An open-source list of tech companies with Terms of Service that discriminate against sex workers.",
+    "date": "2019-09-26",
+    "githubUrl": "sex-work-exclusive-tech-companies/",
+    "figmaUrl": "https://www.figma.com/file/mJoKqMXGxqIkrZJAL7CxI8/Sites-That-Discriminate-Against-Sex-Workers?node-id=0%3A1"
+  },
+  {
+    "title": "vogue",
+    "url": "https://fall2019.henry.codes",
+    "isWip": false,
+    "isSelfHosted": true,
+    "description": "A previous iteration of the author’s personal site and portfolio, circa ✷FW19.",
+    "date": "2019-07-06",
+    "githubUrl": "vogue"
+  },
+  {
+    "title": "super",
+    "url": "https://super.henry.codes",
+    "isWip": false,
+    "isSelfHosted": true,
+    "description": "An Alfred extension that allows quick conversion of text to superscript Unicode.",
+    "date": "2018-10-24",
+    "githubUrl": "alfred-superscript"
+  }
+]

@@ -1,0 +1,32 @@
+ <article class="passage">
+    <div class="passage-title-wrapper">
+        <h1 class="passage-title{% if passage.isWip %} passage-title--wip{% endif %}">{{ passage.title }}{% if passage.isSelfHosted %}<small>.henry.codes</small>{% endif %}</h1>
+        {% if passage.isWip %}<div class="passage-title-tag">Work In Progress</div>{% endif %}
+    </div>
+    <a class="passage-link{% if passage.url | length <= 0 %} passage-link--disabled{% endif %}" href="{{ passage.url }}" ><span class="visually-hidden">View passage</span></a>
+    {% if passage.description %}
+        <p class="passage-description">{{ passage.description }}</p>
+    {% endif %}
+    <ul class="social-icons">
+        {%- if passage.githubUrl -%}
+            <li class="social-icon">
+                <a class="social-icon__link" href="https://github.com/xdesro/{{ passage.githubUrl }}">
+                    <span class="visually-hidden">View the GitHub repo</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 17 16">
+                        <path fill="#333" d="M8.561 0a8 8 0 0 0-8 8 7.999 7.999 0 0 0 5.47 7.59c.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.225.483-2.695-1.073-2.695-1.073-.364-.923-.89-1.17-.89-1.17-.724-.496.056-.486.056-.486.804.056 1.226.824 1.226.824.713 1.223 1.872.87 2.33.665.072-.517.278-.87.506-1.07-1.776-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.824-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82a7.67 7.67 0 0 1 2-.27 7.67 7.67 0 0 1 2 .27c1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38A7.972 7.972 0 0 0 16.56 8a8 8 0 0 0-8-8"/>
+                    </svg>
+                </a>
+            </li>
+        {%- endif -%}
+        {%- if passage.figmaUrl -%}
+            <li class="social-icon">
+                <a class="social-icon__link" href="{{ passage.figmaUrl }}">
+                    <span class="visually-hidden">View the Figma file</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z"/>
+                    </svg>
+                </a>
+            </li>
+        {%- endif -%}
+    </ul>
+</article>
