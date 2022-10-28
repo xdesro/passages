@@ -4,7 +4,7 @@
     "url": "",
     "isWip": true,
     "isSelfHosted": true,
-    "description": "A website to track the author’s recent reading.",
+    "description": "A website to track the author’s recent reading. What a joy it is to find oneself lost in a book.",
     "date": "2022-10-25",
     "githubUrl": "reading",
     "figmaUrl": "https://www.figma.com/file/MtsZ0FS1DP2itMhJdtHvQR/Reading"
@@ -45,7 +45,7 @@
     "url": "https://peaks.henry.codes",
     "isWip": false,
     "isSelfHosted": true,
-    "description": "A log of which 14,000' peaks in Colorado the author has summited.",
+    "description": "A log of which 14,000' soaring blue peaks of Colorado the author has summited.",
     "date": "2021-10-24",
     "githubUrl": "peaks",
     "figmaUrl": "https://www.figma.com/file/171GqWeJQZa9eTk32vtOjz/Peaks?node-id=0%3A1"
@@ -55,7 +55,7 @@
     "url": "https://soon.henry.codes",
     "isWip": false,
     "isSelfHosted": true,
-    "description": "The author’s personal site and portfolio.",
+    "description": "The author’s personal site and portfolio. Soon you will have only a memory of this moment.",
     "date": "2021-01-21",
     "githubUrl": "soon",
     "figmaUrl": "https://www.figma.com/file/Nji3uTbuVhlBAZC8yvt632/SS2021"
@@ -64,7 +64,7 @@
     "title": "compendium.dev",
     "url": "",
     "isWip": true,
-    "description": "An omnibus HTML file to test CSS cascade and formatting with.",
+    "description": "An omnibus HTML file to test CSS cascade and formatting with. A quite useful tool, should you need it.",
     "date": "2021-12-31",
     "githubUrl": "html-compendium"
   },
