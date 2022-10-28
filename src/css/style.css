@@ -1,7 +1,28 @@
-:root {
-    --font-display: 'PP Eiko', 'Eiko', serif;
+@font-face {
+    font-family: 'Neue Haas Grotesk';
+    src: url('/fonts/nhg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Eiko';
+    src: url('/fonts/PPEiko-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eiko';
+    src: url('/fonts/PPEiko-ExtraLightItalic.woff2') format('woff2');
+    font-weight: 200;
+    font-style: italic;
+}
+
+:root {
+    --font-display: 'Eiko', serif;
     --font-text: 'Neue Haas Grotesk', 'Helvetica Neue', 'Helvetica', sans-serif;
+
     --color-neutral: #333;
     --color-neutral-secondary: #6b6b6b;
     --color-mid: #C8C8C8;
@@ -119,8 +140,8 @@ main {
 
 .passage-title {
     font-family: var(--font-display);
+    font-weight: 200;
     font-size: clamp(1rem, 5.8vw, 3rem);
-    font-weight: 100;
     line-height: 1;
     display: inline-block;
 }
@@ -254,10 +275,6 @@ main {
     .passage-title-wrapper {
         grid-column-end: span 4;
         justify-self: start;
-    }
-
-    .passage-title {
-        line-height: 1.5;
     }
 
     .passage-title-tag {
