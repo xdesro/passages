@@ -16,6 +16,9 @@
       "isSelfHosted": {
         "type": "boolean"
       },
+      "failed": {
+        "type": "boolean"
+      },
       "description": {
         "type": "string"
       },
