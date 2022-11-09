@@ -1,9 +1,9 @@
- <article class="passage">
+ <article class="passage" id="{{ passage.title | slug }}">
     <div class="passage-title-wrapper">
         <h1 class="passage-title{% if passage.isWip %} passage-title--wip{% endif %}">{{ passage.title }}{% if passage.isSelfHosted %}<small>.henry.codes</small>{% endif %}</h1>
         {% if passage.isWip %}<div class="passage-title-tag">Work In Progress</div>{% endif %}
     </div>
-    <a class="passage-link{% if passage.url | length <= 0 %} passage-link--disabled{% endif %}" href="{{ passage.url }}" ><span class="visually-hidden">View passage</span></a>
+    <a class="passage-link{% if passage.url | length <= 0 %} passage-link--disabled{% endif %}" href="{% if passage.url %}{{ passage.url }}{% else %}#{{ passage.title | slug }}{% endif %}" ><span class="visually-hidden">View passage</span></a>
     {% if passage.description %}
         <p class="passage-description">{{ passage.description }}</p>
     {% endif %}

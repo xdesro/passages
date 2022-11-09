@@ -128,9 +128,14 @@ main {
     margin-bottom: 3rem;
 }
 
+.passage-list {
+    list-style: none;
+}
+
 .passage {
     position: relative;
     margin-bottom: 1rem;
+    scroll-margin-top: 4rem;
 }
 
 .passage-title-wrapper {
@@ -212,8 +217,11 @@ main {
 }
 
 .social-icon {
+    width: 1rem;
+}
+
+.social-icon svg {
     width: 100%;
-    max-width: 1rem;
 }
 
 .social-icon__link {
@@ -231,7 +239,6 @@ main {
         grid-column-gap: 1rem;
         grid-template-columns: repeat(10, 1fr);
         align-items: first baseline;
-
     }
 
     .year {
@@ -270,6 +277,7 @@ main {
         margin-bottom: 0;
         margin-inline: -1rem;
         padding-inline: 1rem;
+        padding-block: 1rem;
     }
 
     .passage-title-wrapper {
@@ -291,10 +299,6 @@ main {
         min-height: 2em;
         margin-bottom: 0;
     }
-
-    .social-icons {
-        font-size: clamp(1rem, 5.8vw, 3rem);
-    }
 }
 
 @media (min-width: 1146px) {
@@ -308,6 +312,7 @@ main {
 
     .passage {
         grid-template-columns: repeat(8, 1fr);
+        min-height: 4rem;
     }
 
     .passage-title-wrapper {
@@ -329,8 +334,7 @@ main {
         filter: blur(.25rem);
     }
 
-    .passage-link:has(*:focus)~.passage-description,
-    .passage-link:has(*:focus)~.social-icons {
+    .passage-link:has(~ .social-icons:hover)~.passage-description {
         opacity: 1;
         filter: blur(0);
     }
