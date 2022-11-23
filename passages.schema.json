@@ -4,33 +4,15 @@
   "items": {
     "type": "object",
     "properties": {
-      "title": {
-        "type": "string"
-      },
-      "url": {
-        "type": "string"
-      },
-      "isWip": {
-        "type": "boolean"
-      },
-      "isSelfHosted": {
-        "type": "boolean"
-      },
-      "failed": {
-        "type": "boolean"
-      },
-      "description": {
-        "type": "string"
-      },
-      "date": {
-        "type": "string"
-      },
-      "githubUrl": {
-        "type": "string"
-      },
-      "figmaUrl": {
-        "type": "string"
-      }
+      "title": { "type": "string" },
+      "url": { "type": "string" },
+      "isWip": { "type": "boolean" },
+      "isSelfHosted": { "type": "boolean" },
+      "failed": { "type": "boolean" },
+      "description": { "type": "string" },
+      "date": { "type": "string" },
+      "githubUrl": { "type": "string" },
+      "figmaUrl": { "type": "string" }
     },
     "required": ["title", "url", "date"]
   }
