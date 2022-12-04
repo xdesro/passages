@@ -10,8 +10,8 @@
   },
   {
     "title": "reading",
-    "url": "",
-    "isWip": true,
+    "url": "https://reading.henry.codes/",
+    "isWip": false,
     "isSelfHosted": true,
     "description": "A website to track the author’s recent reading. What a joy it is to find oneself lost in a book.",
     "date": "2022-10-25",
