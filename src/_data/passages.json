@@ -1,10 +1,9 @@
 [
   {
-    "title": "chronicles",
-    "url": "",
-    "isWip": true,
+    "title": "tweets",
+    "url": "https://tweets.henry.codes/",
     "isSelfHosted": true,
-    "description": "An app to archive the author’s Twitter account after the demise of the bird site.",
+    "description": "An app to archive the author’s Twitter account after the demise of the bird.",
     "date": "2022-11-25",
     "figmaUrl": "https://www.figma.com/file/VBrWQ4sMq37T2GylU41YXD/Chronicles?node-id=1%3A2&t=6Sgeo2zpv8ut2iap-1"
   },
