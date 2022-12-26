@@ -1,5 +1,13 @@
 [
   {
+    "title": "crime.computer",
+    "url": "https://crime.computer",
+    "description": "An online zine tribute to retro computing magazines and the latent eldritch terror of the web.",
+    "date": "2022-11-19",
+    "isWip": true,
+    "githubUrl": "https://github.com/xdesro/computer-crimes"
+  },
+  {
     "title": "tweets",
     "url": "https://tweets.henry.codes/",
     "isSelfHosted": true,
