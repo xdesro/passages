@@ -1,5 +1,14 @@
 [
   {
+    "title": "glyph.tools",
+    "url": "https://glyph.tools",
+    "description": "A tiny tool for transforming text for silly little shitposts.",
+    "date": "2023-02-07",
+    "isWip": false,
+    "githubUrl": "https://github.com/xdesro/glyph-tools",
+    "figmaUrl": "https://www.figma.com/file/QnxuaNytAeHGt5FXlQqjRI/Glyph-Tools"
+  },
+  {
     "title": "crime.computer",
     "url": "https://crime.computer",
     "description": "An online zine tribute to retro computing magazines and the latent eldritch terror of the web.",
