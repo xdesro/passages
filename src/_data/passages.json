@@ -1,5 +1,15 @@
 [
   {
+    "title": "nyc",
+    "url": "https://nyc.henry.codes",
+    "isSelfHosted": true,
+    "description": "A microsite for keeping track of adventures in New York City.",
+    "date": "2023-02-11",
+    "isWip": false,
+    "githubUrl": "https://github.com/xdesro/nyc",
+    "figmaUrl": "https://www.figma.com/file/gH0llrDI96yyNZ3DpIPAZ6/NYC-Bucket-List?t=1UGnG7b24T70wYHJ-6"
+  },
+  {
     "title": "glyph.tools",
     "url": "https://glyph.tools",
     "description": "A tiny tool for transforming text for silly little shitposts.",
