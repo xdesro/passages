@@ -1,5 +1,15 @@
 [
   {
+    "title": "errant.quest",
+    "url": "https://errant.quest",
+    "isSelfHosted": false,
+    "description": "A travel journal, a home for hopeful and reminiscient writing done abroad.",
+    "date": "2024-01-14",
+    "isWip": false,
+    "githubUrl": "https://github.com/xdesro/errant.quest",
+    "figmaUrl": "https://www.figma.com/file/Yp9jroK6Op4AxKqojpN10J/Travel-Journal?type=design&node-id=76%3A123&mode=design&t=fOC8FFczR9YGsZPY-1"
+  },
+  {
     "title": "nyc",
     "url": "https://nyc.henry.codes",
     "isSelfHosted": true,
